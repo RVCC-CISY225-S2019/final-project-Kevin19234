@@ -1,15 +1,104 @@
-# Final Project
-Web Dev I Final Project
+# Project 7
+## Add responsive web design for tablets and wide screens & Add styling for print
 
-the goals of this last installment of this project is to finalize the project by adding everything from the previous set of projects and including a few new addition of your own to add a personal touch of what you have learned throughout the course.
+**You are expected to thoroughly review the materials in Module Week 10 as well as Module Week 6. You must use our CSS formatting rules from the CISY 225 Style Guide when writing your CSS. You are also required to use Beautify inside of Brackets. I encourage you to beautify often as you write code for your HTML and CSS.**
 
-1. Use of everything form the previous projects. Downloading the code from the previous project
-2. A new SVG Logo was added that was created by me using the website called Vecteezyeditor.com and added on to the project replacing the original blue bird logo.
-3. Bio changed from previous projects, edited, and centered using grids in css.
-4.A blog post added underneath the article discussing the topic o SVG files. the resource used to write the blog post was https://www.todaysoftmag.com/article/1067/the-advantages-of-using-svg-scalable-vector-graphics .
-5. Drop cap added to the article and blog post to using css.
-6. Fonts of the words in the project were also edited and changed from the other projects.
-7. Contact info submission has a hoverable effect and styling.
-8. A working link to my Github account was also added underneath the footer.
-9. Styled and edited
-10. CSS, HTML, and Print.CSS validated.
+
+**You Must Have a Perfect Project 6 Repo. Make all changes to P6 before starting this project. Your grade depends on this. If you need help, ask me for help.**
+
+In this project you are using the design document as shown in 
+
+[Adobe XD RWD of About Me](https://xd.adobe.com/spec/a5db66b4-3086-4f9b-4c62-b0ecce091949-d3ea/ "Adobe XD RWD of ABout Me")
+
+You will be adding media queries and CSS grids to get your About Me page looking similar to the design images.
+
+0. Use Project 6 as your starter code.
+1. Make room at the bottom of your styles.css file to add new styling.
+2. Add the following shell code.
+
+````
+/*  grids */
+
+main {
+	display: grid;
+}
+
+/* hero content */
+
+.content {
+	display: grid;
+}
+
+/* about content */
+
+.about-content {
+	display: grid;
+}
+
+/*  gallery */
+
+.gallery {
+	display: grid;
+}
+
+/*  article */
+
+article {
+	display: grid;
+}
+
+/* form container */
+.form-container {
+	display: grid;
+}
+
+/* footer */
+
+footer {
+	display: grid;
+}
+
+/*  layout */
+
+/*   mobile is the default layout*/
+
+/* tablet layout >=48rem (768px) */
+
+@media screen and (min-width: 48rem) {
+
+	/*      hero content */
+
+	/*	about content */
+
+	/*	gallery */
+
+	/*	article */
+
+	/*	form */
+
+
+}
+
+/* wide screen layout >=64rem (1024px) */
+
+@media screen and (min-width: 64rem) {
+
+	/*      hero content */
+
+	/*	about content */
+
+	/*	gallery */
+
+	/*	article */
+
+	/*	form */
+
+}
+````
+
+3. Edit your HTML to match classes, id needed to match the above shell.
+4. Edit the CSS to add layout for tablets using the media query.
+5. Test your layout using Developer Tools.
+6. Edit the CSS to add layout for tablets using the media query.
+7. Add an external stylesheet for print using the [How to Create Printer-friendly Pages with CSS](https://www.sitepoint.com/css-printer-friendly-pages/ "How to Create Printer-friendly Pages with CSS")
+8. Validate, validate, validate and beautify, beautify, beautify before submitting.
